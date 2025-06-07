@@ -15,20 +15,20 @@ File Gowalla_Dallas_Austin.csv and Gowalla_LosAngeles_SanFrancisco.csv contain c
 
 ## Data Preprocessing
 ### LosAngeles-SanFrancisco
-```cd data_preprocessing```
-```python cross_city_data_preprocessing.py --city_A=LosAngeles --city_B=SanFrancisco```
-```python to_nextpoi_kqt_geo.py --city_A=LosAngeles --city_B=SanFrancisco```
-```python generate_user_profile.py --city_A=LosAngeles --city_B=SanFrancisco```
-```python create_sft_dataset_traj_total.py --city_A=LosAngeles --city_B=SanFrancisco```
+*```cd data_preprocessing```
+*```python cross_city_data_preprocessing.py --city_A=LosAngeles --city_B=SanFrancisco```
+*```python to_nextpoi_kqt_geo.py --city_A=LosAngeles --city_B=SanFrancisco```
+*```python generate_user_profile.py --city_A=LosAngeles --city_B=SanFrancisco```
+*```python create_sft_dataset_traj_total.py --city_A=LosAngeles --city_B=SanFrancisco```
 
 
 
 ### SanFrancisco-LosAngeles
-```cd data_preprocessing```
-```python cross_city_data_preprocessing.py --city_A=SanFrancisco --city_B=LosAngeles```
-```python create_sft_dataset_traj_total.py --city_A=SanFrancisco --city_B=LosAngeles```
-```python generare_user_profile.py --city_A=SanFrancisco --city_B=LosAngeles```
-```python to_nextpoi_kqt_geo.py --city_A=SanFrancisco --city_B=LosAngeles```
+*```cd data_preprocessing```
+*```python cross_city_data_preprocessing.py --city_A=SanFrancisco --city_B=LosAngeles```
+*```python create_sft_dataset_traj_total.py --city_A=SanFrancisco --city_B=LosAngeles```
+*```python generare_user_profile.py --city_A=SanFrancisco --city_B=LosAngeles```
+*```python to_nextpoi_kqt_geo.py --city_A=SanFrancisco --city_B=LosAngeles```
 
 ## Train Model
 ```
