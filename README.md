@@ -67,3 +67,6 @@ python eval_next_poi.py --output_dir="../dataset/Gowalla/SanFrancisco-LosAngeles
 ```
 When running the evaluation code above, please modify the parameters on a case-by-case basis.
 
+## Supplementary Evaluation Figures
+* Under /figures, we provide supplementary evaluation metrics referenced in our rebuttal.
+
